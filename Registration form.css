@@ -1,0 +1,29 @@
+h1
+{
+    text-align: center;
+    color: rgb(238, 163, 23);
+}
+.f {
+    display:flex;
+    justify-content: center;
+    color:black;
+  }
+#img
+{
+    margin-left: 500px;
+    border-radius: 1000px;
+}
+#hh
+{
+  color: black;
+}
+#ap
+{
+    font-weight: bold;
+    font-style: normal;
+    color: maroon;
+}
+#d
+{
+    display: flex;
+}
