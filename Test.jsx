@@ -1,23 +1,23 @@
 import React from 'react'
-function add() {
+function Add() {
     alert('Addition Button clicked!');
   }
-function sub() {
+function Sub() {
     alert('Subtraction Button clicked!');
   }
-function multiply() {
+function Multiply() {
     alert('Multiplication Button clicked!');
   }
-function divide() {
+function Divide() {
     alert('Divide Button clicked!');
   }
 export default function Test() {
   return (
     <div>
-        <button id="b" onClick={add}>Addition</button>
-        <button id="c" onClick={sub}>Subtraction</button>
-        <button id="d"  onClick={multiply}>Multiplication</button>
-        <button onClick={divide}>Division</button>
+        <button id="b" onClick={Add}>Addition</button>
+        <button id="c" onClick={Sub}>Subtraction</button>
+        <button id="d" onClick={Multiply}>Multiplication</button>
+        <button id="a" onClick={Divide}>Division</button>
     </div>
   )
 }
