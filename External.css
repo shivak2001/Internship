@@ -1,17 +1,40 @@
 h4,h5{
   color: brown;
-  background-color: rgb(76, 241, 11);
+  background-color: rgb(11, 138, 241);
 }
 #b
 {
   margin-right: 100px;
   margin-bottom: 50px;
+  background-color: blue;
+  font-size:larger;
+  font-weight: bold;
+  font-style: italic;
 }
 #c
 {
   margin-right: 100px;
+  background-color: orange;
+  font-size:larger;
+  font-weight: bold;
+  font-style: italic;
 }
 #d
 {
   margin-right: 100px;
+  background-color: red;
+  font-size:larger;
+  font-weight: bold;
+  font-style: italic;
+}
+#a
+{
+  background-color:rgb(9, 244, 244);
+  font-size:larger;
+  font-weight: bold;
+  font-style: italic;
+}
+#w
+{
+  background-color:orange;
 }

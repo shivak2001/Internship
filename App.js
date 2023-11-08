@@ -3,6 +3,9 @@ import './App.css';
 import './External.css';
 import Test from './Components/Test'
 import Home from './Components/Home'
+import Variable from './Components/Variable'
+import Arrow from './Components/Arrow'
+import Arraymethods from './Components/Arraymethods'
 function App() {
   const mystyle={
     color:"blue",
@@ -39,6 +42,9 @@ function App() {
       <h6>Hello World</h6>
       <Test/>
       <Home/>
+      <Variable/>
+      <Arrow/>
+      <Arraymethods/>
     </div>
   );
 }
