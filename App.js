@@ -6,6 +6,10 @@ import Home from './Components/Home'
 import Variable from './Components/Variable'
 import Arrow from './Components/Arrow'
 import Arraymethods from './Components/Arraymethods'
+import Test1 from './Components/Test1'
+import Destruct from './Components/Destruct';
+import Spread from './Components/Spread'
+
 function App() {
   const mystyle={
     color:"blue",
@@ -45,6 +49,9 @@ function App() {
       <Variable/>
       <Arrow/>
       <Arraymethods/>
+      <Test1/>
+      <Destruct/>
+      <Spread/>
     </div>
   );
 }
