@@ -7,10 +7,18 @@ import Variable from './Components/Variable'
 import Arrow from './Components/Arrow'
 import Arraymethods from './Components/Arraymethods'
 import Test1 from './Components/Test1'
-import Destruct from './Components/Destruct';
+import Destruct from './Components/Destruct'
 import Spread from './Components/Spread'
-
+import Ternary from './Components/Ternary'
+import Props from './Components/Props'
+import Events from './Components/Events';
+import Conditional from './Components/Conditional'
+import Imp from './Components/Imp';
+import Router  from './Components/Router';
 function App() {
+  var a="Ram"
+  var ab=["Ganesh","Shiva","Ramu"]
+  // const abc=ab.map((list)=><h1>{list}</h1>)
   const mystyle={
     color:"blue",
     backgroundColor:"black",
@@ -22,6 +30,7 @@ function App() {
     }
    
   }
+  
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -38,12 +47,13 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <h1 style={{color:"red",backgroundColor:"green",marginTop:"100px"}}>Hello World</h1>
+      {/* <h1 style={{color:"red",backgroundColor:"green",marginTop:"100px"}}>Hello World</h1>
       <h2 style={mystyle}>Hello World</h2>
       <h3 style={mystyle.heading}>Hello World</h3>
       <h4>Hello World</h4>
       <h5>Hello World</h5>
       <h6>Hello World</h6>
+   
       <Test/>
       <Home/>
       <Variable/>
@@ -52,6 +62,15 @@ function App() {
       <Test1/>
       <Destruct/>
       <Spread/>
+      <Ternary/>
+      <Props value={a} v={ab} name="kiran" age={25}/>
+      <Events/>
+      <Conditional/>
+      <Imp/> */}
+
+
+      <Router/>
+      
     </div>
   );
 }
