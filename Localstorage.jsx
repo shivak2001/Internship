@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Localstorages() {
 
     const [user,setUser]=useState({})
+    let nav=useNavigate()
 
     const Handlechange=(e)=>{
           setUser({...user,[e.target.name]:e.target.value})
@@ -30,16 +32,12 @@ export default function Localstorages() {
 
         }
         const alldata=[...old,newuser]
-
-
-
         localStorage.setItem("Users",JSON.stringify(alldata))
+        nav('/View')
     }
-  return (
+  return ( 
     <div>
         <h1 style={{backgroundColor:"red",color:"black"}}>LocalStorage</h1>
-
-
         <h3>Insert</h3>
         <input type="text" onChange={Handlechange} name="name" placeholder='Enter Your Name'/>
         <br/>
@@ -47,7 +45,7 @@ export default function Localstorages() {
         <br/>
         <input type="email" onChange={Handlechange} name="email"  placeholder='Enter Your Email'/>
         <br/>
-        <br/>
+        <br />
         <button onClick={Handlesubmit}>Insert</button>
     </div>
   )

@@ -14,6 +14,10 @@ import Variable from './Variable'
 import Usestate from './Usestate'
 import Useeffect from './Useeffect'
 import Localstorage from './Localstorage'
+import View from './View'
+import Edit from './Edit'
+import Employee from './Employee'
+
 export default function Router() {
   return (
 
@@ -33,6 +37,9 @@ export default function Router() {
         <Route exact path="/Usestate" element={<Usestate/>}/>
         <Route exact path="/Useeffect" element={<Useeffect/>}/>
         <Route exact path="/Localstorage" element={<Localstorage/>}/>
+        <Route exact path="/View" element={<View/>}/>
+        <Route exact path="/Edit/:item" element={<Edit/>}/>
+        <Route exact path="/Employee" element={<Employee/>}/>
 
     </Routes>
     </BrowserRouter>
