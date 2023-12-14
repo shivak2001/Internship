@@ -1,40 +1,89 @@
-h4,h5{
-  color: brown;
-  background-color: rgb(11, 138, 241);
-}
-#b
+.h
 {
-  margin-right: 100px;
-  margin-bottom: 50px;
-  background-color: blue;
-  font-size:larger;
-  font-weight: bold;
-  font-style: italic;
+    font-weight: bolder;
 }
-#c
+.image
 {
-  margin-right: 100px;
-  background-color: orange;
-  font-size:larger;
-  font-weight: bold;
-  font-style: italic;
+    background-image: url("https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?s=2048x2048&w=is&k=20&c=f8CxZ2Fqp5C_gweD_p2qIEzdCG2P5vqtFfFPS-HHEIo=");
+    background-size: cover;
+     background-position: center;
+     height: 100vh;
 }
-#d
-{
-  margin-right: 100px;
-  background-color: red;
-  font-size:larger;
-  font-weight: bold;
-  font-style: italic;
+/* #b{
+    font-size: large;
+    display: 'flex';
+    flex-Direction: 'column';
+    align-Items: 'center';
+    justify-Content: 'center';
+    min-Height: '100vh';
+} */
+.images{
+    background-image:url(https://img.freepik.com/free-vector/realistic-glassmorphism-background_23-2149441716.jpg?w=996&t=st=1702117672~exp=1702118272~hmac=4cfba55a194cedf54d950eeb1317007e18811032ca0e9809b7e2ea1a1fba4df0) ;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
 }
-#a
-{
-  background-color:rgb(9, 244, 244);
-  font-size:larger;
-  font-weight: bold;
-  font-style: italic;
+.img{
+    background-image: url(https://png.pngtree.com/background/20210706/original/pngtree-space-background-banner-picture-image_156838.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
 }
-#w
-{
-  background-color:orange;
+.h{
+    background-image: url(https://png.pngtree.com/background/20210706/original/pngtree-space-background-banner-picture-image_156838.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.i{
+    background-image: url(https://png.pngtree.com/background/20210706/original/pngtree-space-background-banner-picture-image_156838.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+.Home-container {
+    margin: 40px;
+}
+
+.inside-home-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin,
+.user {
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.admin,
+.user {
+    display: block;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 0 10px rgb(169, 171, 169);
+}
+
+.admin h1,
+.user h1 {
+    color: rgba(101, 101, 109, 0.651);
+}
+
+.avtar {
+    padding: 10px;
+}
+
+.avtar div img {
+    border-radius: 50%;
+
+}
+#id{
+    width: 100%;
 }
